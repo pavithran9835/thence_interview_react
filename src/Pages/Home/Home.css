@@ -1,0 +1,100 @@
+.landing_container {
+  width: 100%;
+  height: 1293.97px;
+  background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background-size: 300px 100px;
+}
+
+.landing_container h1 {
+  width: 900px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.landing_container p {
+  width: 720px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-top: 27px;
+}
+
+.landing_container .landing_button {
+  height: 68px;
+  width: 236px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  padding: 16px, 0px, 16px, 0px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: none;
+  margin-top: 40px;
+  font-size: 24px;
+  color: #2091f9;
+}
+
+.landing_container .lap_image {
+  width: 65%;
+  margin-top: 80px;
+  box-shadow: 0 0 0 5px rgb(0, 0, 0), 0 0 0 12px #d8d8d8;
+  border-radius: 10px;
+}
+
+.lap_border {
+  width: 80%;
+  height: 10px;
+  background-color: #d8d8d8;
+  border-bottom: 5px solid #9fa2a5;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 10px;
+}
+
+.spacer {
+  width: 60%;
+  height: 5px;
+  background-color: #e4e4e4;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing_container {
+    height: 120vh;
+  }
+
+  .landing_container h1 {
+    max-width: 90%;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 1px;
+  }
+
+  .landing_container p {
+    max-width: 90%;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
+  }
+
+  .landing_container button {
+    width: 200px;
+    padding: 10px;
+    font-size: 17px;
+  }
+}

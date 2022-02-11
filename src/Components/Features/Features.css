@@ -1,0 +1,126 @@
+.features_container {
+  width: 100%;
+  height: 1034px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.features_title {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features_deacription {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #737373;
+  width: 500px;
+  margin-top: 27px;
+}
+
+.features_list_container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.features_list_box {
+  width: 300px;
+  height: 409px;
+  border-radius: 10px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  margin-top: 100px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: border-box;
+  padding: 10px;
+}
+
+.features_list_box img {
+  width: 50px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.features_list_box h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.features_list_box p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #737373;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin-bottom: 30px;
+}
+
+.features_list_box h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #2091f9;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .features_container {
+    height: auto;
+  }
+
+  .features_title {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .features_deacription {
+    width: 400px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+    margin-top: 27px;
+  }
+}
